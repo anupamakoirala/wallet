@@ -74,6 +74,11 @@ const networks = [
     url: 'https://rinkeby.infura.io/v3/ae22018377b14a61983be979df457b20',
     display: 'Rinkeby',
   },
+  {
+    name: 'bsc',
+    url: ' https://data-seed-prebsc-1-s1.binance.org:8545',
+    display: 'BSC Testnet',
+  },
 ];
 
 const getDefaultNetwork = () => {
